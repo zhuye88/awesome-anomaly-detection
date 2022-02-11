@@ -1,7 +1,7 @@
 # awesome anomaly detection
 A curated list of awesome anomaly detection resources. Inspired by [`awesome-architecture-search`](https://github.com/sdukshis/awesome-ml) and [`awesome-automl`](https://github.com/hibayesian/awesome-automl-papers).  
 
-*Last updated: 2020/12/16*
+*Last updated: 2021/11/22*
 
 ## What is anomaly detection?
 
@@ -30,6 +30,7 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Anomalous Instance Detection in Deep Learning: A Survey | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2003.06979.pdf)
 - Deep Learning for Anomaly Detection: A Review | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/pdf/2007.02500.pdf)
 - A Unifying Review of Deep and Shallow Anomaly Detection | **[arXiv' 20]** |[`[pdf]`](https://arxiv.org/abs/2009.11732)
+- A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges | **[arXiv' 21]** |[`[pdf]`](https://arxiv.org/pdf/2110.14051)
 
 ## Table of Contents
 - [Time-series anomaly detection](#time-series-anomaly-detection)
@@ -46,6 +47,7 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Time Series Anomaly Detection; Detection of anomalous drops with limited features and sparse examples in noisy highly periodic data | **[arXiv' 17]** |   [`[pdf]`](https://arxiv.org/ftp/arxiv/papers/1708/1708.03665.pdf)
 - Anomaly Detection in Multivariate Non-stationary Time Series for Automatic DBMS Diagnosis | **[ICMLA' 17]** | [`[pdf]`](https://arxiv.org/abs/1708.02635)
 - Truth Will Out: Departure-Based Process-Level Detection of Stealthy Attacks on Control Systems  | **[ACM CCS '18]** | [`[pdf]`](https://research.chalmers.se/publication/507989/file/507989_Fulltext.pdf)
+- DeepAnT: A Deep Learning Approach for Unsupervised Anomaly Detection in Time Series | **[IEEE Access' 18]** | [`[pdf]`](https://ieeexplore.ieee.org/abstract/document/8581424)
 - Time-Series Anomaly Detection Service at Microsoft  | **[KDD' 19]** |  [`[pdf]`](https://arxiv.org/pdf/1906.03821v1.pdf)
 - Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network  | **[KDD' 19]** |  [`[pdf]`](https://dl.acm.org/doi/10.1145/3292500.3330672)
 - A Systematic Evaluation of Deep Anomaly Detection Methods for Time Series | **Under Review** | [`[code]`](https://github.com/KDD-OpenSource/DeepADoTS)
@@ -73,6 +75,7 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - A Self-Reasoning Framework for Anomaly Detection Using Video-Level Labels | **[IEEE SPL' 20]** | [`[pdf]`](https://arxiv.org/pdf/2008.11887.pdf)
 - Few-Shot Scene-Adaptive Anomaly Detection	 | **[ECCV' 20]** 
 - Re Learning Memory Guided Normality for Anomaly Detection | **[Arxiv' 20]** | [`[pdf]`](https://arxiv.org/ftp/arxiv/papers/2101/2101.12382.pdf)
+- Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning | **[ICCV' 21]** | [`[pdf]`](https://arxiv.org/pdf/2101.10030.pdf) | [`[code]`](https://github.com/tianyu0207/RTFM)
 
 ## Image-level anomaly detection
 
@@ -123,6 +126,10 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Regularizing Attention Networks for Anomaly Detection in Visual Question Answering | **[AAAI' 21]** |  [`[pdf]`](https://arxiv.org/abs/2009.10054) 
 - Attribute Restoration Framework for Anomaly Detection | **[IEEE Transactions on Multimedia 21]** |  [`[pdf]`](https://arxiv.org/abs/1911.10676) 
 - Modeling the distribution of normal data in pre-trained deep features for anomaly detection | **[ICPR' 20]** |  [`[pdf]`](https://arxiv.org/abs/2005.14140) | [`[code]`](https://github.com/ORippler/gaussian-ad-mvtec)
+- Discriminative Multi-level Reconstruction under Compact Latent Space for One-Class Novelty Detection | **[ICPR' 20]** |  [`[pdf]`](https://arxiv.org/abs/2003.01665)
+- Deep One-Class Classification via Interpolated Gaussian Descriptor | **[arXiv' 21]** |  [`[pdf]`](https://arxiv.org/pdf/2101.10043.pdf) | [`[code]`](https://github.com/tianyu0207/IGD)
+- Multiresolution Knowledge Distillation for Anomaly Detection | **[CVPR' 21]** | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2021/html/Salehi_Multiresolution_Knowledge_Distillation_for_Anomaly_Detection_CVPR_2021_paper.html) | [`[code]`](https://github.com/rohban-lab/Knowledge_Distillation_AD)
+- Elsa: Energy-based learning for semi-supervised anomaly detection | **[BMVC' 21]** | [`[pdf]`](https://arxiv.org/pdf/2103.15296.pdf) | [`[code]`](https://github.com/archon159/elsa)
 
 ### Out-of-Distribution(OOD) Detection target
 - A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks  | **[ICLR' 17]** | [`[pdf]`](https://arxiv.org/pdf/1610.02136.pdf)
@@ -131,6 +138,7 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Learning Confidence for Out-of-Distribution Detection in Neural Networks | **[arXiv' 18]** |  [`[pdf]`](https://arxiv.org/pdf/1802.04865.pdf)
 - Out-of-Distribution Detection using Multiple Semantic Label Representations | **[NIPS' 18]** |  [`[pdf]`](http://papers.nips.cc/paper/7967-out-of-distribution-detection-using-multiple-semantic-label-representations.pdf)
 - A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks  | **[NIPS' 18]** |  [`[pdf]`](http://papers.nips.cc/paper/7947-a-simple-unified-framework-for-detecting-out-of-distribution-samples-and-adversarial-attacks.pdf)
+- Metric Learning for Novelty and Anomaly Detection | **[BMVC' 18]** | [`[pdf]`](http://bmvc2018.org/contents/papers/0178.pdf) [`[code]`](https://mmasana.github.io/OoD_Mining/)
 - Deep Anomaly Detection with Outlier Exposure  | **[ICLR' 19]** |  [`[pdf]`](https://openreview.net/pdf?id=HyxCxhRcY7)
 - Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem  | **[CVPR' 19]** |  [`[pdf]`](https://arxiv.org/pdf/1812.05720.pdf)
 - Outlier Exposure with Confidence Control for Out-of-Distribution Detection | **[arXiv' 19]** |  [`[pdf]`](https://arxiv.org/abs/1906.03509v2) [`[code]`](https://github.com/nazim1021/OOD-detection-using-OECC)
@@ -175,11 +183,14 @@ In image, video data, it is aimed to classify abnormal images or to segment abno
 - Uninformed Students: Student-Teacher Anomaly Detection with Discriminative Latent Embeddings | **[CVPR' 20]** |  [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2020/papers/Bergmann_Uninformed_Students_Student-Teacher_Anomaly_Detection_With_Discriminative_Latent_Embeddings_CVPR_2020_paper.pdf)
 - Attention Guided Anomaly Detection and Localization in Images | **[ECCV' 20]** |  [`[pdf]`](https://arxiv.org/pdf/1911.08616v1.pdf)
 - Encoding Structure-Texture Relation with P-Net for Anomaly Detection in Retinal Images	 | **[ECCV' 20]** 
-- Sub-Image Anomaly Detection with Deep Pyramid Correspondences  |  **[arxiv' 20]** | [`[pdf]`](https://arxiv.org/pdf/2005.02357.pdf) | [`[code]`](https://github.com/byungjae89/SPADE-pytorch)
-- Patch SVDD, Patch-level SVDD for Anomaly Detection and Segmentation  | **[arxiv' 20]** | [`[pdf]`](https://arxiv.org/pdf/2006.16067.pdf) | [`[code]`](https://github.com/nuclearboy95/Anomaly-Detection-PatchSVDD-PyTorch)
+- Sub-Image Anomaly Detection with Deep Pyramid Correspondences  |  **[arXiv' 20]** | [`[pdf]`](https://arxiv.org/pdf/2005.02357.pdf) | [`[code]`](https://github.com/byungjae89/SPADE-pytorch)
+- Patch SVDD, Patch-level SVDD for Anomaly Detection and Segmentation  | **[arXiv' 20]** | [`[pdf]`](https://arxiv.org/pdf/2006.16067.pdf) | [`[code]`](https://github.com/nuclearboy95/Anomaly-Detection-PatchSVDD-PyTorch)
 - Unsupervised anomaly segmentation via deep feature reconstruction  | **[Neurocomputing' 20]**| [`[pdf]`](https://www.sciencedirect.com/science/article/pii/S0925231220317951) | [`[code]`](https://github.com/YoungGod/DFR)
 - PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization  | **[ICPR IML Workshop' 20]**| [`[pdf]`](https://arxiv.org/abs/2011.08785) | [`[code]`](https://github.com/xiahaifeng1995/PaDiM-Anomaly-Detection-Localization-master)
-- Explainable Deep One-Class Classification  | **[ICLR' 21**| [`[pdf]`](https://openreview.net/forum?id=A5VV3UyIQz) | [`[code]`](https://github.com/liznerski/fcdd)
+- Explainable Deep One-Class Classification  | **[ICLR' 21]**| [`[pdf]`](https://openreview.net/forum?id=A5VV3UyIQz) | [`[code]`](https://github.com/liznerski/fcdd)
+- Semi-orthogonal Embedding for Efficient Unsupervised Anomaly Segmentation | **[arXiv' 21]** [`[pdf]`](https://arxiv.org/pdf/2105.14737)
+- Constrained Contrastive Distribution Learning for Unsupervised Anomaly Detection and Localisation in Medical Images  | **[MICCAI' 21]**| [`[pdf]`](https://arxiv.org/pdf/2103.03423.pdf) | [`[code]`](https://github.com/tianyu0207/CCD)
+- Multiresolution Knowledge Distillation for Anomaly Detection | **[CVPR' 21]**| [`[pdf]`](https://arxiv.org/abs/2011.11108)
 
 ## Contact & Feedback
 If you have any suggestions about papers, feel free to mail me :)
